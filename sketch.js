@@ -42,13 +42,13 @@ function draw() {
         //noStroke();
         //rect(25, 25, 50, 50);
         background(0);
-        //imageMode(CENTER);
-        image(page1, width, height);
+        imageMode(CENTER);
+        image(page1, width / 2, height / 2);
     } else {
         
         background(0);
-        //imageMode(CENTER);
-        image(page3, width, height);
+        imageMode(CENTER);
+        image(page3, width / 2, height / 2);
 
         fill(col_r, col_g, col_b);
         noStroke();
