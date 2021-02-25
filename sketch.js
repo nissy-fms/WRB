@@ -47,8 +47,8 @@ function draw() {
     } else {
         
         background(0);
-        imageMode(CENTER);
-        image(page3, width / 2, height / 2);
+        //imageMode(CENTER);
+        image(page3, width, height);
 
         fill(col_r, col_g, col_b);
         noStroke();
