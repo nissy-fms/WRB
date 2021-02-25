@@ -43,7 +43,7 @@ function draw() {
         //rect(25, 25, 50, 50);
         background(0);
         imageMode(CENTER);
-        image(page1, width / 2, height / 2);
+        image(page1, width, height);
     } else {
         
         background(0);
