@@ -38,16 +38,16 @@ function draw() {
     col_b = col_b / count;
     console.log(col_r, col_g, col_b);
     if (col_r > 140 && col_g < 120 && col_b < 120) {
-        //fill(255, 0, 0);
-        //noStroke();
-        //rect(25, 25, 50, 50);
+        fill(255, 0, 0);
+        noStroke();
+        rect(25, 25, 50, 50);
         background(0);
         imageMode(CENTER);
         image(page1, width / 2, height / 2);
     } else {
-        //fill(col_r, col_g, col_b);
-        //noStroke();
-        //rect(25, 25, 50, 50);
+        fill(col_r, col_g, col_b);
+        noStroke();
+        rect(25, 25, 50, 50);
         background(0);
         imageMode(CENTER);
         image(page3, width / 2, height / 2);
