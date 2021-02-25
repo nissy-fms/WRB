@@ -14,7 +14,7 @@ function draw() {
     let col_g = 0;
     let col_b = 0;
     let count = 0;
-    image(capture, 0, 0, 640, 480);
+    //image(capture, 0, 0, 640, 480);
     for (let j = 0; j < height; j += skip) {
         for (let i = 0; i < width; i += skip) {
             let x = map(i, 0, width, 0, 640);
