@@ -37,7 +37,7 @@ function draw() {
     col_g = col_g / count;
     col_b = col_b / count;
     console.log(col_r, col_g, col_b);
-    if (col_r > 150 && col_g < 120 && col_b < 120) {
+    if (col_r > 140 && col_g < 120 && col_b < 120) {
         //fill(255, 0, 0);
         //noStroke();
         //rect(25, 25, 50, 50);
