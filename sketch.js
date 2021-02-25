@@ -52,7 +52,7 @@ function draw() {
 
         fill(col_r, col_g, col_b);
         noStroke();
-        rect(25, 25, 50, 50);
+        //rect(25, 25, 50, 50);
     }
 
 }
