@@ -1,4 +1,10 @@
 let capture;
+let page1;
+let page3;
+function preload() {
+    page1 = loadImage('page1.PNG');
+    page3 = loadImage('page3.PNG');
+}
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -30,15 +36,21 @@ function draw() {
     col_r = col_r / count;
     col_g = col_g / count;
     col_b = col_b / count;
-    console.log(col_r,col_g,col_b);
+    console.log(col_r, col_g, col_b);
     if (col_r > 150 && col_g < 120 && col_b < 120) {
-        fill(255, 0, 0);
-        noStroke();
-        rect(25, 25, 50, 50);
+        //fill(255, 0, 0);
+        //noStroke();
+        //rect(25, 25, 50, 50);
+        background(0);
+        imageMode(CENTER);
+        image(page1, width / 2, height / 2);
     } else {
-        fill(col_r, col_g, col_b);
-        noStroke();
-        rect(25, 25, 50, 50);
+        //fill(col_r, col_g, col_b);
+        //noStroke();
+        //rect(25, 25, 50, 50);
+        background(0);
+        imageMode(CENTER);
+        image(page3, width / 2, height / 2);
     }
 
 }
