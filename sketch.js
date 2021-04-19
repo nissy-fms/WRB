@@ -43,17 +43,17 @@ function draw() {
         //noStroke();
         //rect(25, 25, 50, 50);
         background(0);
-        //imageMode(CENTER);
-        //image(page1, width / 2, height / 2);
-        drawimg(page1.PNG,canvas);
+        imageMode(CENTER);
+        image(page1, width / 2, height / 2);
+        //drawimg(page1.PNG,canvas);
     } else {
         
         background(0);
-        //imageMode(CENTER);
-        //image(page3, width / 2, height / 2);
-        drawimg(page1.PNG,canvas);
-        fill(col_r, col_g, col_b);
-        noStroke();
+        imageMode(CENTER);
+        image(page3, width / 2, height / 2);
+        //drawimg(page1.PNG,canvas);
+        //fill(col_r, col_g, col_b);
+        //noStroke();
         //rect(25, 25, 50, 50);
     }
 
