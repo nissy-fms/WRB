@@ -45,33 +45,14 @@ function draw() {
         background(0);
         imageMode(CENTER);
         image(page1, width / 2, height / 2);
-        //drawimg(page1.PNG,canvas);
+        
     } else {
         
         background(0);
         imageMode(CENTER);
         image(page3, width / 2, height / 2);
-        //drawimg(page1.PNG,canvas);
         //fill(col_r, col_g, col_b);
         //noStroke();
         //rect(25, 25, 50, 50);
     }
-/*
-    function drawimg(filename, canvasname) {
-        var img = new Image();
-        img.onload = function() {     // 画像ファイル読込後の処理
-            // 画像サイズ取得
-            var imgw = img.width;
-            var imgh = img.height;
-            // canvasの定義
-            var canvas = document.getElementById(canvasname);
-            var ctx = canvas.getContext('2d');
-            canvas.width = imgw;     // 画像ファイルの横幅がcanvasの横幅になります
-            canvas.height = imgh;
-            // 画像を canvas に表示
-            ctx.drawImage(img, 0, 0);
-        }
-        img.src = filename;
-    }
-    */
 }
