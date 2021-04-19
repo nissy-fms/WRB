@@ -56,7 +56,7 @@ function draw() {
         //noStroke();
         //rect(25, 25, 50, 50);
     }
-
+/*
     function drawimg(filename, canvasname) {
         var img = new Image();
         img.onload = function() {     // 画像ファイル読込後の処理
@@ -73,4 +73,5 @@ function draw() {
         }
         img.src = filename;
     }
+    */
 }
